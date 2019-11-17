@@ -1,0 +1,9 @@
+{
+    "command" : ["nvidia-smi"],
+    "username" : "xul",
+    "password" : "xul",
+    "port" : 22,
+    "thread_num" : 150,
+
+    "ipv4_mask": "10.201.0.0"
+}
