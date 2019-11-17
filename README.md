@@ -12,8 +12,8 @@ pip install paramiko
 ```
 
 
-# 配置文件
-```json
+# 配置文件 config.json
+```
 {
     "command" : ["nvidia-smi", "ls"],   # 在服务器上执行的命令（确认ip和服务器的对应关系）
     "username" : "",                    # 服务器的登陆账户
