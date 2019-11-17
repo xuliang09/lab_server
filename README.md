@@ -28,9 +28,17 @@ pip install paramiko
 
 # 运行
 ```python
-python -u search_ip.py 2>ERROR.txt
+python -u search_ip.py >IP.txt 2>ERROR.txt
 ```
 
 
 # 效率
-> 在 10.201.0.0 网段上进行测试，大约8分钟
+在 10.201.0.0 网段上进行测试
+1. 150个线程，大约8分钟
+2. 100个线程，大约12分钟
+
+
+# 注意
+不同的CPU支持的线程数量不一样，线程数量太大可能导致程序异常终止，而不返回任何结果
+
+
