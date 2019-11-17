@@ -3,7 +3,7 @@
     "username" : "xul",
     "password" : "xul",
     "port" : 22,
-    "thread_num" : 150,
+    "thread_num" : 100,
 
     "ipv4_mask": "10.201.0.0"
 }
