@@ -19,7 +19,7 @@ pip install paramiko
     "username" : "",                    # 服务器的登陆账户
     "password" : "",                    # 服务器的登陆密码
     "port" : 22,                        # 服务器的ssh端口
-    "thread_num" : 150,                 # 线程数量
+    "thread_num" : 100,                 # 线程数量
 
     "ipv4_mask": "10.201.0.0"           # 服务器所在的网段为 10.201.x.x
 }
