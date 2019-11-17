@@ -28,7 +28,7 @@ pip install paramiko
 
 # 运行
 ```python
-python -u search_ip.py >IP.txt 2>ERROR.txt
+python -u search_ip.py
 ```
 
 
